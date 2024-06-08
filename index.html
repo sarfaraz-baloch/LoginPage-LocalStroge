@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<div class="main" id="main">
+  <!-- Names wrapper -->
+  <div class="main-wrapper">
+
+    <h3 class="h3">Contant Us</h3>
+    
+<div class="input-wrapper">
+  <div class="Frist">
+    <label for="frist-name">Frist Name </label>
+    <br>
+    <input type="text" name="frist-name" id="frist_name">
+    <li id="li_1"></li>
+  </div>
+
+  <div class="second">
+    <label for="last-name">Last Name </label>
+    <br>
+    <input type="text" name="last-name" id="second_name" >
+    <li id="li_2"></li>
+  </div>
+</div>
+
+<!-- email wrapper -->
+
+<div class="email-wrapper">
+  <label for="email">Email </label>
+  <br>
+ <input type="text" name="email" id="email">
+ <li id="li_3"></li>
+</div>
+
+<!-- radio -->
+<div class="radio">
+<label for="">Query Type </label>
+<br>
+<div class="radio-wraper">
+  <div class="frist-radio">
+<input type="radio" name="type" id="radio_1">General Enquiry
+  </div >
+
+  <div class="second-radio">
+<input type="radio" name="type" id="radio_2">Support Request
+
+  </div>
+</div>
+<li id="li_4"></li>
+
+</div>
+
+
+<!-- textarea  -->
+<div class="message-wrapper">
+<label for="Message">Message <sub>*</sub></label>
+<br>
+<textarea name="Message" id="textarea" cols="7" placeholder="Type your note">
+</textarea>
+<li id="li_5"></li>
+
+</div>
+
+<!-- last -->
+<div class="content">
+<div class="content-wrapper">
+<input type="checkbox" id="checkbox">
+<p>I consent to being contacted by the team</p>
+
+</div>
+<li id="li_6"></li>
+</div>
+
+
+<div class="btn">
+<button onclick="sumbit()">Sumbit</button>
+</div>
+  </div>
+
+</div>
+
+<script src="./index.js"></script>
+</body>
+</html>
