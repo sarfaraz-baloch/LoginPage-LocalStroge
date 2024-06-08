@@ -1,6 +1,9 @@
 var frist_name = document.getElementById('frist_name')
 var second_name = document.getElementById('second_name')
 var email = document.getElementById('email')
+// var radio_1 = document.getElementsByName('type')
+// var radio_2 = document.getElementById('radio_2')
+var type = document.getElementsByName('type')
 var textarea = document.getElementById('textarea')
 var checkbox = document.getElementById('checkbox')
 var main = document.getElementById('main')
@@ -14,6 +17,13 @@ function sumbit(){
     }else{
     }
 
+
+    // if(type.checked === false){
+    //     alert('working')
+        
+    // }else{
+    //     alert('not working')
+    // }
 
     if(second_name.value === ''){
         var li_2 = document.getElementById('li_2')
